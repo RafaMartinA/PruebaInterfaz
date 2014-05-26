@@ -22,13 +22,5 @@ public class Helipuerto {
         listado.remove(eliminacion);
         return true;
     }
-    
-    String aterrizar(int numero, int metros){
-       return listado.get(numero).aterrizar(metros);
-    }
-    String despegar(int numero){
-       return listado.get(numero).despegar();
-    }
-    //que pasa
      
 }
