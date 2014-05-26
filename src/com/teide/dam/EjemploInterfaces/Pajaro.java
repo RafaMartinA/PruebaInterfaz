@@ -17,7 +17,7 @@ public class Pajaro implements Volador{
 
     @Override
     public String aterrizar(int metros) {
-        return " El pajaro aterriza en una rama";
+        return " El pajaro aterriza en una rama despues de haber volado "+metros+"m.";
     }
     
 }
