@@ -17,7 +17,7 @@ public class Avion implements Volador{
 
     @Override
     public String aterrizar(int metros) {
-        return "El avion "+(0.05*metros)+" ";
+        return "El avion "+(0.05*metros)+"m.";
     }
 
     
