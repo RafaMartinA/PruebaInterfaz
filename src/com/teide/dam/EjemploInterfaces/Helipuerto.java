@@ -10,6 +10,7 @@ import java.util.ArrayList;
  *
  * @author DAM1
  */
+
 public class Helipuerto {    
     ArrayList<Volador>listado = new ArrayList<>();    
     String aterrizar(int numero, int metros){
@@ -17,5 +18,15 @@ public class Helipuerto {
     }
     String despegar(int numero){
        return listado.get(numero).despegar();
-    }     
+    }  
+    public void añadir (Volador v) {
+        listado.add(v);
+    }
+    
+    public boolean eliminar (int eliminacion) {
+        listado.remove(eliminacion);
+        return true;
+    }
 }
+     
+
