@@ -13,6 +13,16 @@ import java.util.ArrayList;
 public class Helipuerto {
     
     ArrayList<Volador>listado = new ArrayList<>();
+    
+    public void añadir (Volador v) {
+        listado.add(v);
+    }
+    
+    public boolean eliminar (int eliminacion) {
+        listado.remove(eliminacion);
+        return true;
+    }
+    
     String aterrizar(int numero, int metros){
        return listado.get(numero).aterrizar(metros);
     }
