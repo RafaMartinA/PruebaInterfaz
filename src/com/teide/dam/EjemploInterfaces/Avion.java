@@ -19,7 +19,4 @@ public class Avion implements Volador{
     public String aterrizar(int metros) {
         return "El avión "+(0.05*metros)+"m.";
     }
-
-    
-    
 }
